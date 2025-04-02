@@ -7,10 +7,10 @@
 
 ## 1. Clone the repository (if necessary)
 ```sh
-git clone <repository_url>
+git clone https://github.com/FayeWong-00/Simple_bank_sys.git
 ```
 ## 2. Run the banking system
-```sh
+```
 python bank_sys.py
 ```
 
