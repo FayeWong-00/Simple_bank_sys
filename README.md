@@ -41,8 +41,8 @@ for acc in bank.get_all_accounts():
 
 
 
-## Methods
-### create_account(name: str, starting_balance: float) -> BankAccount
+### Methods
+#### create_account(name: str, starting_balance: float) -> BankAccount
 ```
 Description: Creates a new bank account with a given name and starting balance.
 
@@ -55,7 +55,7 @@ starting_balance (float): The initial balance of the account (default is 0.0).
 Returns: A BankAccount object representing the newly created account.
 ```
 
-### deposit(account_id: int, amount: float) -> float
+#### deposit(account_id: int, amount: float) -> float
 ```
 Description: Deposits a specified amount into the account.
 
@@ -69,7 +69,7 @@ Returns: The updated balance of the account.
 ```
 
 
-### withdraw(account_id: int, amount: float) -> float
+#### withdraw(account_id: int, amount: float) -> float
 ```
 Description: Withdraws a specified amount from the account.
 
@@ -82,7 +82,7 @@ amount (float): The amount to withdraw.
 Returns: The updated balance of the account.
 ```
 
-### transfer(from_id: int, to_id: int, amount: float)
+#### transfer(from_id: int, to_id: int, amount: float)
 ```
 Description: Transfers a specified amount from one account to another.
 
@@ -97,10 +97,22 @@ amount (float): The amount to transfer.
 Returns: None. The balances of both accounts are updated, and the transaction is logged.
 ```
 
-### get_all_accounts() -> List[Dict]
+#### get_all_accounts() -> List[Dict]
 ```
 Description: Retrieves all accounts in the system.
 
 Returns: A list of dictionaries representing all accounts. Each dictionary contains account_id, name, and balance.
 ```
 
+
+
+## 4. Run the test input
+for the custom test
+```
+python custom_test.py
+```
+
+for the unnitest
+```
+python unnitest.py
+```
